@@ -1,0 +1,13 @@
+apiVersion: authorization.cci.vmware.com/v1alpha1
+kind: ProjectRoleBinding
+metadata:
+  # name must match the subject kind and name
+  name: "cci:group:yourdomain.com:cciadmins@yourdomain.com"
+  namespace: cci
+subjects:
+  - kind: Group  # User / Group
+    name: cciadmins@yourdomain.com@yourdomain.com
+roleRef:
+  apiGroup: authorization.cci.vmware.com
+  kind: ProjectRole
+  name: admin # admin / edit / view
