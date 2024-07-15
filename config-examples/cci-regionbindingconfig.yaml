@@ -9,4 +9,4 @@ spec:
       - key: environment
         operator: In
         values:
-          - development   # your tag name here
+          - development   # your tag value here

@@ -10,7 +10,7 @@ spec:
     - name: best-effort-small
     - name: best-effort-medium
   contentSources:
-    - name: "Kubernetes Service Content Library"
+    - name: "vm-librararry"  # this is your VM content source.  Not your TKR content source
       type: ContentLibrary
   # Below limits are an EXAMPLE! Setting them may cause unexpected behavior in your namespace
   # Either set reasonable limits, or remove the below section to get unlimited resources
